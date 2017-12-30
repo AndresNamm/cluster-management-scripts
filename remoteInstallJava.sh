@@ -4,7 +4,7 @@
 jdk="jdk1.8.0_131"
 javatar="/usr/java/jdk1.8.0_131.tar.gz"
 javaHome="/home/andres/management/cluster-management-scripts/javaHome.sh"
-for i in {1..4}
+for i in {1..3}
 do 
 echo "INSTALLING TO: klaster$i"
 echo "COPYING AND EXTRACTING JAVA" 
