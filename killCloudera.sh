@@ -3,7 +3,8 @@ for u in cloudera-scm flume hadoop hdfs hbase hive httpfs hue impala llama mapre
 do 
 echo $u
 echo $(ps -u $u -o pid=)
-kill $(ps -u $u -o pid=)# works but starts again...
+kill $(ps -u $u -o pid=)
+# works but starts again...
 service $u stop
 done
 
