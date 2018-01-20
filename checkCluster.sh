@@ -2,7 +2,7 @@
 red=`tput setaf 1`
 green=`tput setaf 2`
 reset=`tput sgr0`
-for cluster_number in {1..3} 
+for cluster_number in {1..4} 
 do 
 echo ""
 echo ""
