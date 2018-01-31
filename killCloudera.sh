@@ -8,5 +8,7 @@ kill $(ps -u $u -o pid=)
 service $u stop
 done
 
+#CHECK IF REMAINING SERVICESI
+ps -aef | grep java
 
 
