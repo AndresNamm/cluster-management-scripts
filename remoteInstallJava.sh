@@ -3,17 +3,17 @@
 # you have to fill the variables below according to your own needs.
 jdk="jdk1.8.0_131"
 javatar="/usr/java/jdk1.8.0_131.tar.gz"
-javaHome="./javaHome.sh"
-for i in {3..3}
+javaHome="./exportJavaHome.sh"
+for i in {1..1}
 do 
 echo "INSTALLING TO: klaster$i"
 echo "COPYING AND EXTRACTING JAVA" 
 ssh -t root@klaster$i "mkdir /usr/java"
 scp $javatar root@klaster$i:/usr/java
-ssh -t root@klaster$i "tar -xzf /usr/java/$jdk.tar.gz -C /usr/java; ls -l /usr/java;"
+ssh -t root@klaster$i "tar -xzvf /usr/java/$jdk.tar.gz -C /usr/java || exit 1; ls -l /usr/java;"
 echo "COPYING THE JAVA_HOME CONFIGURATION"
 scp $javaHome root@klaster$i:/etc/profile.d
-ssh -t root@klaster$i "source /etc/profile; echo $JAVA_HOME"
+ssh -t root@klaster$i "source /etc/profile; echo $JAVA_HOME || exit 1"
 echo "UPDATE ALTERNATIVES"
 ssh -t root@klaster$i "update-alternatives --install /usr/bin/java java /usr/java/$jdk/jre/bin/java 2000; update-alternatives --config java; java -version"
 ssh -t root@klaster$i "update-alternatives --install /usr/bin/javac javac /usr/java/$jdk/bin/javac 2000; update-alternatives --config javac; javac -version"
