@@ -5,7 +5,7 @@ set -e
 jdk="jdk1.8.0_131"
 javatar="/usr/java/jdk1.8.0_131.tar.gz"
 javaHome="./exportJavaHome.sh"
-for i in {1..1}
+for i in {2..2}
 do 
 echo "INSTALLING TO: klaster$i"
 echo "COPYING AND EXTRACTING JAVA" 
