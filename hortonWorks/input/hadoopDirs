@@ -1,0 +1,9 @@
+/hadoop/*
+/hdfs/hadoop
+/hdfs/lost+found
+/hdfs/var
+/local/opt/hadoop
+/tmp/hadoop
+/usr/bin/hadoop
+/usr/hdp
+/var/hadoop
