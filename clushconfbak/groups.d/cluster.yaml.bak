@@ -1,0 +1,27 @@
+# ClusterShell groups config cluster.yaml.example
+#
+# Example of YAML groups config file with multiple sources.
+# ^^^^^^^
+# Here you can describe your cluster nodes and equipments using several
+# group sources.
+#
+# Example of group source use-cases are:
+# - functional info (compute, storage, service nodes, etc.)
+# - location (room, rack position, etc.)
+# - physical attributes (cpu type, gpu types, memory size, etc.)
+# - vendors and hardware models, useful info for firmware update
+# - infrastructure (pdu, network and interco switches)
+# - ownership of nodes and partitions...
+#
+# File will be auto-loaded if renamed to .yaml
+#
+# Break and adapt to fit your own needs. Use nodeset CLI to test config.
+#
+# Group cluster
+c: 
+    datanodes: 'hadoopdn[1-3].estpak.ee'
+    namenodes: 'hadoopnn[1-2].estpak.ee'
+    manager: 'hadoopmgmt.estpak.ee'
+    all: 'hadoopdn[1-3].estpak.ee,hadoopnn[1-2].estpak.ee,hadoopmgmt.estpak.ee'
+
+

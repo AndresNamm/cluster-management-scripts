@@ -1,0 +1,54 @@
+accumulo
+ambari-qa
+ams
+falcon
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+flume
+hbase
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+hcat
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+hdfs
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+hive
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+kafka
+knox
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+mapred
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+oozie
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+ranger
+spark
+sqoop
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+storm
+tez
+yarn
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
+zeppelin
+zookeeper
+hadoopdn3.estpak.ee:   PID TTY          TIME CMD
+hadoopdn1.estpak.ee:   PID TTY          TIME CMD
+hadoopdn2.estpak.ee:   PID TTY          TIME CMD
